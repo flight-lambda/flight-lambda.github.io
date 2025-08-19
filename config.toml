@@ -1,0 +1,35 @@
+baseURL = 'https://flight-lambda.github.io/'
+languageCode = 'en-us'
+title = 'FlightLambda'
+theme = 'PaperMod'
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = 'Your Name'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  homeInfoParams = { Title = "Welcome to FlightLambda 🚀", Content = "Hello there! I am an engineer working across Computational Fluid Dynamics (CFD), Deep Learning and Flight Simulation. This site is my journal, portfolio, and sandbox for sharing ideas — from small experiments to large-scale projects.\n\n\n Expect project logs, tutorials, and research write-ups — new content every week!"}
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/posts/"
+  weight = 30
